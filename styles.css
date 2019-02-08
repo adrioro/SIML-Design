@@ -7,8 +7,9 @@ body { margin: 0; color: rgb(100,100,100);letter-spacing: 0.08em; font-family: '
 
 /*STRUCTURE*/
 
-header { width: 100%; height: 60px; background: rgb(0,0,0); padding: 5px 0; margin-bottom: 5px; }
-	#logo { width: 200px; height: 60px; background: rgb(200,200,200); float: left; }
+header { width: 100%; height: 60px; background: rgb(0,0,0); padding: 5px 0; }
+	#logo { width: 200px; height: 60px; float: left; color: white; margin-top:10px; }
+	.logo{width: 200px; height: 40px;}
 	nav { float: left; margin-left: 305px; }
 	nav li { display: inline; margin-right: 20px; font-weight: bold; font-size: 18px; }
 	nav li a { color: rgb(255,255,255); text-decoration: none; }
@@ -17,31 +18,31 @@ header { width: 100%; height: 60px; background: rgb(0,0,0); padding: 5px 0; marg
 	.button a { color: rgb(255,255,255); text-decoration: none; text-shadow: 2px 2px 2px rgba(0,0,0,0.25); }
 	.button:hover { background: url(images/buttonbg_o.jpg); }
 
-section.hero { width: 100%; height: 400px; background: url(bgplaceholder.jpg); background-size: 100% 100%; padding: 5px 0; margin-bottom: 5px; }
-	.heroimage { width: 480px; height: 380px; background: rgb(150,150,150); float: left; margin: 10px 0 0 20px; }
-	.herocontent { width: 400px; float: left; margin-left: 20px; padding-top: 40px; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); }
+section.hero { width: 100%; height: 400px; background: url(images/herobg.jpg); background-size: 100% 100%; padding: 5px 0; margin-bottom: 70px; }
+	.heroimage {  float: left; margin: 70px 0 0 20px; }
+	.herocontent { width: 400px; float: left; margin-left: 20px; padding-top: 40px; text-shadow: 2px 2px 5px rgba(0,0,0,0.75); color: rgb(255,255,255); }
 	section.hero h1 { font-size: 45px; margin-bottom: -10px; font-family: 'Roboto', sans-serif;}
 	section.hero p { margin-bottom: 60px; }
 	section.hero .button { width: 225px; height: 45px; padding-top: 20px; font-size: 25px;}
 
 section.features { width: 940px; height: 350px; margin: 0 auto 0px; padding: 5px 0; }
-	section.features h2 {color: #6574B2; font-size: 36px; text-align: center; margin-bottom: -15px; }
+	section.features h2 {font-family: 'Poly', serif; font-style: italic; color: #6574B2; font-size: 38px; text-align: center; margin-bottom: -15px; }
 	section.features h4 { font-size: 20px; font-weight: normal; color: rgb(200,200,200); text-align: center; margin-bottom: 40px; }
 	section.features aside { width: 286px; height: 200px; float: left; text-align: center; margin-left: 20px; }
-	section.features aside img { width: 100%; height: 150px; background: rgb(200,200,200); margin-bottom: -15px; }
-	section.features aside h3 {font-size: 22px; color: #6574B2; }
+	section.features aside img { width: 100%; height: 150px; margin-bottom: -15px; }
+	section.features aside h3 {font-size: 26px; color: #6574B2; font-family: 'Poly', serif; font-style: italic; }
 
 section.organize { width: 100%; height: 260px; background: rgb(240,240,240); padding: 5px 0; margin-bottom: 5px; margin-top: 35px; border-top:1px solid rgb(200,200,200); border-bottom:1px solid rgb(200,200,200)}
 	section.organize img, section.share img { width: 440px; height: 225px; float: left; margin-left: 20px; margin-top: 20px; background: rgb(200,200,200); }
 	.organizecontent, .sharecontent { float: left; margin-left: 20px; width: 440px; }
-	.organizecontent h2 {sans-serif; color: #6574B2;font-size: 36px; margin-bottom: 15px;}
+	.organizecontent h2, .sharecontent h2 {sans-serif; color: #6574B2;font-size: 36px; margin-bottom: 15px; font-family: 'Poly', serif; font-style: italic;}
 
-section.share { width: 940px; height: 260px; background: rgb(220,220,220); margin: 0 auto 5px; padding: 5px 0; }
+section.share { width: 940px; height: 260px; margin: 0 auto 5px; padding: 5px 0; }
 
-section.get { width: 100%; height: 100px; background: rgb(100,100,100); padding: 5px 0; margin-bottom: 5px; }
-	section.get h2 { font-size: 30px; float: left; color: rgb(255,255,255); margin-left: 60px; margin-top: 30px; }
+section.get { width: 100%; height: 100px; background: #6574B2; padding: 5px 0; margin-bottom: 5px;font-family: 'Poly', serif; font-style: italic; }
+	section.get h2 { font-size: 30px; float: left; color: rgb(255,255,255); margin-left: 60px; margin-top: 25px; front-weight: normal;}
 	section.get .button { margin-right: 60px; margin-top: 25px; }
 
-footer { width: 100%; height: 60px; background: rgb(200,200,200); padding: 5px 0; text-align: center; }
+footer { width: 100%; height: 60px; padding: 5px 0; text-align: center; }
 
 .container { width: 940px; height: 100%; margin: 0 auto; }
