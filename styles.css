@@ -6,15 +6,14 @@
 body { margin: 0; color: rgb(100,100,100);letter-spacing: 0.08em; font-family: 'Montserrat', sans-serif; }
 
 /*STRUCTURE*/
-
 header { width: 100%; height: 60px; background: rgb(0,0,0); padding: 5px 0; }
 	#logo { width: 200px; height: 60px; float: left; color: white; margin-top:10px; }
 	.logo{width: 200px; height: 40px;}
-	nav { float: left; margin-left: 305px; }
-	nav li { display: inline; margin-right: 20px; font-weight: bold; font-size: 18px; }
+	nav { float: left; margin-left: 180px; }
+	nav li { display: inline; margin-right: 38px; font-weight: bold; font-size: 18px; }
 	nav li a { color: rgb(255,255,255); text-decoration: none; }
 	nav li a:hover { color: rgb(150,150,150); text-decoration: underline; }
-	.button { width: 80px; height: 25px; background: url(images/buttonbg.jpg); text-align: center; padding: 10px 5px 5px;margin: 7px 0px 0px 0px;border: 1px solid rgb(205,101,14); border-radius: 5px; cursor: pointer; box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185,91,12,1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.5)}
+	.button { width: 150px; height: 38px; background: url(images/buttonbg.jpg); text-align: center; padding: 7px 5px 5px;margin: 3px 0px 0px 0px;border: 1px solid rgb(205,101,14); border-radius: 5px; cursor: pointer; box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185,91,12,1), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.5)}
 	.button a { color: rgb(255,255,255); text-decoration: none; text-shadow: 2px 2px 2px rgba(0,0,0,0.25); }
 	.button:hover { background: url(images/buttonbg_o.jpg); }
 
@@ -33,13 +32,13 @@ section.features { width: 940px; height: 350px; margin: 0 auto 0px; padding: 5px
 	section.features aside h3 {font-size: 26px; color: #6574B2; font-family: 'Poly', serif; font-style: italic; }
 
 section.organize { width: 100%; height: 260px; background: rgb(240,240,240); padding: 5px 0; margin-bottom: 5px; margin-top: 35px; border-top:1px solid rgb(200,200,200); border-bottom:1px solid rgb(200,200,200)}
-	section.organize img, section.share img { width: 440px; height: 225px; float: left; margin-left: 20px; margin-top: 20px; background: rgb(200,200,200); }
+	section.organize img, section.share img { width: 440px; height: 225px; float: left; margin-left: 20px; margin-top: 20px;  }
 	.organizecontent, .sharecontent { float: left; margin-left: 20px; width: 440px; }
 	.organizecontent h2, .sharecontent h2 {sans-serif; color: #6574B2;font-size: 36px; margin-bottom: 15px; font-family: 'Poly', serif; font-style: italic;}
 
 section.share { width: 940px; height: 260px; margin: 0 auto 5px; padding: 5px 0; }
 
-section.get { width: 100%; height: 100px; background: #6574B2; padding: 5px 0; margin-bottom: 5px;font-family: 'Poly', serif; font-style: italic; }
+section.get { width: 100%; height: 100px; background: rgb(113,80,109); padding: 5px 0; margin-bottom: 5px;font-family: 'Poly', serif; font-style: italic; }
 	section.get h2 { font-size: 30px; float: left; color: rgb(255,255,255); margin-left: 60px; margin-top: 25px; front-weight: normal;}
 	section.get .button { margin-right: 60px; margin-top: 25px; }
 
